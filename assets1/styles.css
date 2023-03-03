@@ -13,7 +13,7 @@
     border-radius: 5px;
 }
 .lifebar .bar {
-    height:inherit;
+height:inherit;
     background-color: red;
     border-radius: 5px;
 }
