@@ -1,6 +1,6 @@
 //knight ou  sorcerer
 //LittleMonster ou bigMonster
-class  character {
+class  character {  //personagem padrão
     _life =  1;
     maxLife  = 1;
     attack = 1;
@@ -20,7 +20,7 @@ class  character {
 class knight extends character {
     constructor(name){
     //propriedade específicas do guerriro
-        super(name);
+        super(name); //ceta o construtor
         this.life = 100;
         this.attack = 10;
         this.defense  = 8;
